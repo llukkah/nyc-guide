@@ -1,8 +1,12 @@
 boroughs = {
+   # DONE # borough//home page// page 1 >>city.html >> lists borough
     'brooklyn': {
+     #DONE   #activity // page 2 >> borough.html >> lists activities
         'beaches': {
+            #venue // page 3 >> activity.html >> lists each venue
             'brighton beach': { 
                 'img_link': '',
+                # detail // page 4 >> detail.html >> lists individual venue w/ description
                 'description': 'Also known as "Little Odessa" due its tight-knit Russian and Eastern European communities, Brooklyn\'s Brighton Beach is a lively neighborhood with many high-rise residential buildings. \ Traditional ethnic restaurants and food markets line Brighton Beach Avenue. The beach and boardwalk here are more laid-back than nearby Coney Island, catering largely to locals. Splashy nightclubs attract partiers in the evenings.'
             },
             'coney island': {

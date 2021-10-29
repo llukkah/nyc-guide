@@ -3,12 +3,10 @@
 <ul>
     {% for venue in activities %}
     <li>
-        <!-- "/sandwich/ingredients/{{ ingredient }}" -->
-        <a href="/{{ borough }}/{{ activity }}/{{ venue }}">
-
-
-    {{ venue|title }}
-</a>
+        <!-- <a href="/{{ borough }}/{{ activity }}/{{ venue }}"> -->
+        <a href="{% url 'venue' borough activity venue%} ">
+            {{ venue|title }}
+        </a>
     </li>
     {% endfor %}
 </ul>

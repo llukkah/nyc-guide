@@ -18,4 +18,11 @@ def activity(request, borough, activity):
 def venue(request, borough, activity, venue):
     # pass
     if request.method == 'GET':
-        return render(request=request, template_name='venue.html')
+        return render(request=request, template_name='venue.html', context={
+            #brooklyn
+            'borough': borough,
+            #parks, zoos
+            'activity': activity,
+            'venue': venue,
+            'description': boroughs[borough][activity][venue].get('description')
+        })

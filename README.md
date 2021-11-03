@@ -1,6 +1,6 @@
 # New York City Guide - Django Project
 
-Made by @llukkah and @mbrown2330
+Made by Llukkah Rey ([@llukkah](https://www.github.com/llukkah)) and Maleka Brown ([@mbrown2330](https://github.com/mbrown2330))
 
 ## To start building the project:
 
